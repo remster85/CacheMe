@@ -8,7 +8,7 @@ public class HeavyObject {
 
     public HeavyObject() {
         // Create a byte array with 1 MB size
-        this.data = new byte[1024 * 1024 * 150]; // 1 MB
+        this.data = new byte[1024 * 1024 * 1]; // 1 MB
         Arrays.fill(data, (byte) 1); // Fill the array with some sample data (e.g., all bytes set to 1)
     }
 
